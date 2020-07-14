@@ -1,0 +1,12 @@
+example = "example"
+print("This is an", example, "and has no errors.")
+
+name = "James Todaro"
+fav_artist = "Jay-Z"
+vacation = "Italy"
+hobby = "Snowboarding & Coding"
+today = "07/14/2020"
+
+print("My name is", name, "and my favorite artist is", fav_artist)
+print("I love to go on vacation to", vacation, "and my two main hobbies are", hobby)
+print("Today's date is:", today)
