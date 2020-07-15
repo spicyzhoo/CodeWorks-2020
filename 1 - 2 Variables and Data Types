@@ -1,0 +1,24 @@
+annual_rainfall = 0
+# Individual Rainfall
+january_rainfall = 3.15
+february_rainfall = 3.64
+march_rainfall = 4.14
+april_rainfall = 1.46 
+may_rainfall = 5.51
+june_rainfall = 2.95
+july_rainfall = 3.85
+august_rainfall = 2.39
+sept_rainfall =  0.16 
+oct_rainfall =  6.21
+nov_rainfall = 1.10
+dec_rainfall = 3.57
+# Variables
+winter_rainfall = january_rainfall + february_rainfall + march_rainfall
+spring_rainfall = april_rainfall  + may_rainfall + june_rainfall
+summer_rainfall = july_rainfall + august_rainfall + sept_rainfall
+fall_rainfall = oct_rainfall + nov_rainfall + dec_rainfall
+# Total
+annual_rainfall += winter_rainfall + spring_rainfall + summer_rainfall + fall_rainfall
+# Calculations
+print(annual_rainfall / 12)
+print(annual_rainfall)
